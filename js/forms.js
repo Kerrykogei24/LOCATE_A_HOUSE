@@ -105,10 +105,10 @@ LocateAhouse.prototype.housePrice = function () {
 LocateAhouse.prototype.landNo = function (location, houseSize) {
     if (this.location === "ALLSOAPS") {
         if (this.houseSize === "BUNGALOW") {
-            this.landlordNo = "The landLord No is +25476342134";
+            this.landlordNo = "The landLord name Mwaura +254704902382";
             alert(this.landlordNo);
         } else if (this.houseSize === "TWO-BEDROOM") {
-            this.landlordNo = "The landLord No is +2547630987";
+            this.landlordNo = "The landLord name Mathew Mark +254724821093";
             alert(this.landlordNo);
         } else if (this.houseSize === "ONE-BEDROOM") {
             this.landlordNo = "The landLord name Steve +254755849302";
@@ -123,19 +123,19 @@ LocateAhouse.prototype.landNo = function (location, houseSize) {
     }
     else if (this.location === "RONGAI") {
         if (this.houseSize === "BUNGALOW") {
-            this.landlordNo = "The landLord No is +25476342134";
+            this.landlordNo = "The landLord name Farzana Izack +254713409768";
             alert(this.landlordNo);
         } else if (this.houseSize === "TWO-BEDROOM") {
-            this.landlordNo = "The landLord No is +2547630987";
+            this.landlordNo = "The landLord name Carol Wambui +254724842307";
             alert(this.landlordNo);
         } else if (this.houseSize === "ONE-BEDROOM") {
-            this.landlordNo = "The landLord name Jaloch felix +254755849302";
+            this.landlordNo = "The landLord name Jaloch felix +2547593048302";
             alert(this.landlordNo);
         } else if (this.houseSize === "BEDSITTER") {
-            this.landlordNo = "The landLord name Ashley Kirigo +254723834058";
+            this.landlordNo = "The landLord name Ashley Kirigo +254709378920";
             alert(this.landlordNo);
         } else if (this.houseSize === "SINGLE") {
-            this.landlordNo = "The landLord name Sharon Anyango +254733029384";
+            this.landlordNo = "The landLord name Sharon Anyango +254709347599";
             alert(this.landlordNo);
         }
     };
