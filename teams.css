@@ -48,3 +48,8 @@
 .thumbnail img {
     width: 200px;
 }
+
+.avator {
+    margin-top: 8%;
+    text-align: center;
+}

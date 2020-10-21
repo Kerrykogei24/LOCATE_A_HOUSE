@@ -1,15 +1,24 @@
-.container-fluid{
-    background-image: url("../img/back1.jpg");
+.home2 {
+    background-image: url("../imgn2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    padding: 5%;
 }
-.jumbotron{
-    background-color: rgba(9,11,15, 0.3);
+
+.jumbotron {
+    background-color: rgba(9, 11, 15, 0.3);
 }
-button{
+
+button {
     padding: 2%;
     margin-top: 5%;
+}
+
+.foot {
+    display: flex;
+}
+
+#contact {
+    color: #fff;
 }
