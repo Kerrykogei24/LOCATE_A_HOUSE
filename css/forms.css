@@ -9,3 +9,7 @@ form{
 .jumbotron{
     background-color: rgba(9,11,15, 0.3);
 }
+button{
+    padding: 2%;
+    margin-top: 5%;
+}
