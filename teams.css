@@ -44,3 +44,7 @@
     background-color: #fff;
     color: #000;
 }
+
+.thumbnail img {
+    width: 200px;
+}
