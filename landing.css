@@ -2,7 +2,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url("./back.jpg");
+        background-image: url("./p_images/back.jpg");
         box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
         /* padding: 0px 5%; */
         font-size: 2em;
@@ -40,7 +40,7 @@
     } */
     
     #Home {
-        background-image: url("./pexels-sebastian-sørensen-731082.jpg");
+        background-image: url("./p_images/pexels-sebastian-sørensen-731082.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
