@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html><head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="css/forms.css" rel="stylesheet" type="text/css" media="all">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <title></title>
+</head><body>
+    <div class="container-fluid">
+        <form id="house">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h3>Find a home </h3>
+                    <p>Hello, We are here to ensure that you have a smooth time when finding your new home</p>
+                    <div class="form-group">
+                        <label for="location">LOCATION</label>
+                        <select class="form-control" id="location" required>
+                            <option value="ALLSOAPS">ALL SOAPS </option>
+                            <option>RONGAI</option>
+                            <option>NGONG</option>
+                            <option>KINOO</option>
+                            <option>KANGEMI</option>
+                            <option>KAHAWA-WENDANI</option>
+                            <option>KAHAWA-SUKARI</option>
+                        </select>
+                    </div>
+                    <label for="house-size">HOUSE SIZE</label>
+                    <select class="form-control" id="house-size" required>
+                        <option value="BUNGALOW">BUNGALOW</option>
+                        <option value="TWO-BEDROOM">TWO BEDROOM</option>
+                        <option value="ONE-BEDROOM">ONE BEDROOM</option>
+                        <option value="BEDSITTER">BEDSITTER</option>
+                        <option value="SINGLE">SINGLE</option>
+                    </select>
+                    <!-- <button type="submit" class="btn btn-warning" id="select">SELECT</button> -->                </div>            </div>
+            <div class="col-md-4"></div>
+            <button type="submit" class="btn btn-warning" id="select">SELECT</button>
+        </form>
+    </div>
+    <div class="allsoaps">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" placeholder="Enter email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" placeholder="Enter password" id="pwd" required>
+                    </div>                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" placeholder="Enter email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                </div>                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    </div>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="js/forms.js"></script>
+</body></html>
