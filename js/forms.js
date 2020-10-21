@@ -210,7 +210,23 @@ LocateAhouse.prototype.landNo = function (location, houseSize) {
             this.landlordNo = "The landLord name Ziyech +254709347599";
             alert(this.landlordNo);
         }
+    }
+    else if (this.location === "KAHAWA-SUKARI") {
+        if (this.houseSize === "BUNGALOW") {
+            this.landlordNo = "The landLord name Mutiso Abdi +254713409768";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "TWO-BEDROOM") {
+            this.landlordNo = "The landLord name Kante Komar +254724842307";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "ONE-BEDROOM") {
+            this.landlordNo = "The landLord name Tomy Abraham +2547593048302";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "BEDSITTER") {
+            this.landlordNo = "The landLord name David Mkubwa +254709378920";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "SINGLE") {
+            this.landlordNo = "The landLord name Pulsic Jordan +254709347599";
+            alert(this.landlordNo);
+        }
     };
-
-
 };
