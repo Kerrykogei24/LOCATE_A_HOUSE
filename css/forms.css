@@ -6,3 +6,6 @@ form{
     background-position: center;
     padding: 5%;
 }
+.jumbotron{
+    background-color: rgba(9,11,15, 0.3);
+}
