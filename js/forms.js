@@ -174,6 +174,25 @@ LocateAhouse.prototype.landNo = function (location, houseSize) {
             this.landlordNo = "The landLord name Atieno Odwang +254709347599";
             alert(this.landlordNo);
         }
-    };
+    }
+    else if (this.location === "KANGEMI") {
+        if (this.houseSize === "BUNGALOW") {
+            this.landlordNo = "The landLord name Jeff Awuoro +254713409768";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "TWO-BEDROOM") {
+            this.landlordNo = "The landLord name Gloria Kogei +254724842307";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "ONE-BEDROOM") {
+            this.landlordNo = "The landLord name Ann Kipchumba +2547593048302";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "BEDSITTER") {
+            this.landlordNo = "The landLord name Michelle Anita +254709378920";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "SINGLE") {
+            this.landlordNo = "The landLord name Sharon Ambogo +254709347599";
+            alert(this.landlordNo);
+        }
+    }
+    
 
 };
