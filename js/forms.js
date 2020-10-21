@@ -116,6 +116,28 @@ LocateAhouse.prototype.landNo = function (location, houseSize) {
         } else if (this.houseSize === "BEDSITTER") {
             this.landlordNo = "The landLord name Kerry +254723834058";
             alert(this.landlordNo);
+        } else if (this.houseSize === "SINGLE") {
+            this.landlordNo = "The landLord name Christine +254733029384";
+            alert(this.landlordNo);
+        }
+    }
+    else if (this.location === "RONGAI") {
+        if (this.houseSize === "BUNGALOW") {
+            this.landlordNo = "The landLord No is +25476342134";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "TWO-BEDROOM") {
+            this.landlordNo = "The landLord No is +2547630987";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "ONE-BEDROOM") {
+            this.landlordNo = "The landLord name Jaloch felix +254755849302";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "BEDSITTER") {
+            this.landlordNo = "The landLord name Ashley Kirigo +254723834058";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "SINGLE") {
+            this.landlordNo = "The landLord name Sharon Anyango +254733029384";
+            alert(this.landlordNo);
         }
     };
+
 };
