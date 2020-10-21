@@ -193,6 +193,24 @@ LocateAhouse.prototype.landNo = function (location, houseSize) {
             alert(this.landlordNo);
         }
     }
-    
+    else if (this.location === "KAHAWA-WENDANI") {
+        if (this.houseSize === "BUNGALOW") {
+            this.landlordNo = "The landLord name Ashley Watamu +254713409768";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "TWO-BEDROOM") {
+            this.landlordNo = "The landLord name Borris Barasa +254724842307";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "ONE-BEDROOM") {
+            this.landlordNo = "The landLord name Brian Ombaga +2547593048302";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "BEDSITTER") {
+            this.landlordNo = "The landLord name Bruno Fernandes +254709378920";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "SINGLE") {
+            this.landlordNo = "The landLord name Ziyech +254709347599";
+            alert(this.landlordNo);
+        }
+    };
+
 
 };
