@@ -156,6 +156,24 @@ LocateAhouse.prototype.landNo = function (location, houseSize) {
             this.landlordNo = "The landLord name Ali hassan +254709347599";
             alert(this.landlordNo);
         }
+    }
+    else if (this.location === "KINOO") {
+        if (this.houseSize === "BUNGALOW") {
+            this.landlordNo = "The landLord name Alfred Mugo +254713409768";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "TWO-BEDROOM") {
+            this.landlordNo = "The landLord name Michelle Wanjiru +254724842307";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "ONE-BEDROOM") {
+            this.landlordNo = "The landLord name Isaack KIbet +2547593048302";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "BEDSITTER") {
+            this.landlordNo = "The landLord name Eve Adhiambo +254709378920";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "SINGLE") {
+            this.landlordNo = "The landLord name Atieno Odwang +254709347599";
+            alert(this.landlordNo);
+        }
     };
 
 };
