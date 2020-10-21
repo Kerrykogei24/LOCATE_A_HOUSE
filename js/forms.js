@@ -2,9 +2,10 @@ function LocateAhouse(location, houseSize) {
     this.location = location;
     this.houseSize = houseSize;
     this.landlordNo = 0;
-    this.rentAmount = 0;};
-    
-LocateAhouse.prototype.housePrice = function() {
+    this.rentAmount = 0;
+};
+
+LocateAhouse.prototype.housePrice = function () {
     if (this.location === "ALLSOAPS") {
         if (this.houseSize === "BUNGALOW") {
             this.rentAmount = 30000;
@@ -89,9 +90,10 @@ LocateAhouse.prototype.housePrice = function() {
         } else if (this.houseSize === "SINGLE") {
             this.rentAmount = 5500;
         }
-    };};$(document).ready(function() {
-    $("#house").submit(function(event) {
-        event.preventDefault();        var location = $("#location").val();        var houseSize = $("#house-size").val();        var newTenant = new LocateAhouse(location, houseSize);
+    };
+}; $(document).ready(function () {
+    $("#house").submit(function (event) {
+        event.preventDefault(); var location = $("#location").val(); var houseSize = $("#house-size").val(); var newTenant = new LocateAhouse(location, houseSize);
         newTenant.housePrice();
         newTenant.landNo();
         // console.log(newTenant.landlordNo);
@@ -100,7 +102,7 @@ LocateAhouse.prototype.housePrice = function() {
         alert("The house in " + location + " is " + houseSize + " and the total rent amount Ksh. " + newTenant.rentAmount);
     });
 });
-LocateAhouse.prototype.landNo = function(location, houseSize) {
+LocateAhouse.prototype.landNo = function (location, houseSize) {
     if (this.location === "ALLSOAPS") {
         if (this.houseSize === "BUNGALOW") {
             this.landlordNo = "The landLord No is +25476342134";
@@ -109,7 +111,10 @@ LocateAhouse.prototype.landNo = function(location, houseSize) {
             this.landlordNo = "The landLord No is +2547630987";
             alert(this.landlordNo);
         } else if (this.houseSize === "ONE-BEDROOM") {
-            this.landlordNo = "The landLord name STeve +2907498635625";
+            this.landlordNo = "The landLord name Steve +254755849302";
+            alert(this.landlordNo);
+        } else if (this.houseSize === "BEDSITTER") {
+            this.landlordNo = "The landLord name Kerry +254723834058";
             alert(this.landlordNo);
         }
     };
