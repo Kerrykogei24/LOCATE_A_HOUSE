@@ -1,0 +1,38 @@
+body {
+    padding: 30px;
+}
+
+#about {
+    font-size: 20px;
+}
+
+#contact .jumbotron {
+    background-color: black;
+    color: white;
+}
+
+#contact {
+    text-align: center;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+}
+
+#icon img {
+    margin-right: 20px;
+}
+
+.abtu {
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.abtu h1,
+p {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 18px;
+}
